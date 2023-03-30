@@ -1,9 +1,9 @@
------------------[ IMPORT-MODULE ]-------------------
+#-----------------[ IMPORT-MODULE ]-------------------
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
-os.system("xdg-open https://www.facebook.com/rjshanto723")
+#os.system("xdg-open https://www.facebook.com/rjshanto723")
 from rich.table import Table as me
 from rich.console import Console as sol
 from bs4 import BeautifulSoup as sop
@@ -43,7 +43,7 @@ except ModuleNotFoundError:
 except:pass
 
 import os,sys,time,json,random,re,string,platform,base64,uuid
-os.system("git pull")
+#os.system("git pull")
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
 import requests as ress
