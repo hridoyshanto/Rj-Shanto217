@@ -1,9 +1,9 @@
 #-----------------[ IMPORT-MODULE ]-------------------
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
-import requests,bs4,json,os,sys,random,datetime,time,re
-import urllib3,rich,base64
-#os.system("xdg-open https://www.facebook.com/rjshanto723")
+#import requests,bs4,json,os,sys,random,datetime,time,re
+#import urllib3,rich,base64
+os.system("xdg-open https://www.facebook.com/rjshanto723")
 from rich.table import Table as me
 from rich.console import Console as sol
 from bs4 import BeautifulSoup as sop
@@ -46,7 +46,7 @@ import os,sys,time,json,random,re,string,platform,base64,uuid
 os.system("git pull")
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
-import requests as ress
+#import requests as ress
 from datetime import date
 from datetime import datetime
 from time import sleep
@@ -92,14 +92,14 @@ ugen2=[]
 ugen=[]
 ugen=[]
 cokbrut=[]
-ses=requests.Session()
+#ses=requests.Session()
 princp=[]
 try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox) 
 except Exception as e:
 	print(' \x1b[1;91m\x1b[1;96m\x1b[1;92m \x1b[1;96m[SHANTO-XD')
-prox=open('.prox.txt','r').read().splitlines()
+#prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
 	b=random.randrange(1, 9)
